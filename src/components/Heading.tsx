@@ -1,10 +1,28 @@
+import { Home, Settings, Sun, TimerReset } from 'lucide-react'
+import { Button } from './button'
 import styles from './Heading.module.css'
+import { Logo } from './logo'
 
-type HeadingProps = {
-  children: React.ReactNode,
-}
-
-export function Heading(props: HeadingProps) {
-  const { children } = props
-  return <h1 className={styles.heading}>{children}</h1>
+export function Heading() {
+  return (
+    <div className={styles.container}>
+      <div className={styles.content}>
+        <Logo />
+        <div>
+          <Button>
+            <Home />
+          </Button>
+          <Button>
+            <TimerReset />
+          </Button>
+          <Button>
+            <Settings />
+          </Button>
+          <Button>
+            <Sun />
+          </Button>
+        </div>
+      </div>
+    </div>
+  )
 }
