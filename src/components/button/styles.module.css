@@ -1,0 +1,12 @@
+.main {
+  padding: 0.8rem;
+  border-radius: 0.8rem;
+  background: var(--primary);
+  border: none;
+}
+
+.main:hover {
+  background: var(--primary-light);
+  cursor: pointer;
+  transition: background 0.3s;
+}
