@@ -12,3 +12,8 @@
   align-items: center;
   gap: 2.4rem;
 }
+
+.menu {
+  display: flex;
+  gap: 2rem;
+}

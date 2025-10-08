@@ -8,7 +8,7 @@ export function Heading() {
     <div className={styles.container}>
       <div className={styles.content}>
         <Logo />
-        <div>
+        <div className={styles.menu}>
           <Button>
             <Home />
           </Button>
