@@ -1,7 +1,7 @@
 import { Home, Settings, Sun, TimerReset } from 'lucide-react'
-import { Button } from './button'
-import styles from './Heading.module.css'
-import { Logo } from './logo'
+import { Button } from '../button'
+import styles from './styles.module.css'
+import { Logo } from '../logo'
 
 export function Heading() {
   return (
