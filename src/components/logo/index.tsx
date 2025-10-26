@@ -3,9 +3,11 @@ import styles from './styles.module.css'
 
 export function Logo() {
   return (
-    <div className={styles.title}>
-      <TimerIcon className={styles.icon} />
-      <a href="#">Chronos</a>
+    <div className={styles.container}>
+      <a className={styles.content} href="/">
+        <TimerIcon className={styles.icon} />
+        <span>Chronos</span>
+      </a>
     </div>
   )
 }
