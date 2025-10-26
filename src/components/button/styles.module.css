@@ -1,12 +1,12 @@
 .main {
-  padding: 1.6rem;
+  padding: 1.3rem;
   border-radius: 1.6rem;
   background: var(--primary);
   border: none;
+  transition: all 0.3s ease-in-out;
 }
 
 .main:hover {
-  background: var(--primary-light);
+  filter: brightness(80%);
   cursor: pointer;
-  transition: background 0.3s;
 }
